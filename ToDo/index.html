@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="titulo">
+            My ToDo List
+        </div>
+
+        <div id="pesquisa">
+            <input class="barra-pesquisa" type="text" placeholder="  Nova tarefa que deseja realizar">
+            <button class="btn-adicionar">+</button>
+        </div>
+
+        <div id="tarefas">
+            <div class="checkbox">
+                <input type="checkbox" >
+                <label for="">Ex01</label>
+                <button class="apagar"></button>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="">Ex02</label>
+                <button class="apagar"></button>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox"> 
+                <label for="">Ex03</label>
+                <button class="apagar"></button>
+            </div>
+        </div>
+
+        <hr size="3" color="black">
+
+        <div id="status">
+            <div class="tasks">
+                Tarefas completas: 
+                <div class="tarefas-completas">0</div>
+            </div>
+            <div class="tar">
+                Tarefas pendentes:
+                <div class="tarefas-pendentes">3</div>
+            </div>
+        </div>
+
+    </div>
+    <script type= "text/javascript" src= "script.js"> </script>
+</body>
+</html>
